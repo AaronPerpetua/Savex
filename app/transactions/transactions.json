@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "title": "Amazon Purchase",
+    "subtitle": "Today, 2:30 PM",
+    "amount": "89.99",
+    "isExpense": true,
+    "category": "shopping",
+    "icon": "ShoppingBag",
+    "bgColor": "bg-purple-500"
+  },
+  {
+    "id": 2,
+    "title": "Starbucks Coffee",
+    "subtitle": "Today, 11:20 AM",
+    "amount": "12.50",
+    "isExpense": true,
+    "category": "food",
+    "icon": "Coffee",
+    "bgColor": "bg-orange-500"
+  },
+  {
+    "id": 3,
+    "title": "Salary Deposit",
+    "subtitle": "Today, 9:00 AM",
+    "amount": "3500.00",
+    "isExpense": false,
+    "category": "income",
+    "icon": "TrendingUp",
+    "bgColor": "bg-green-500"
+  },
+  {
+    "id": 4,
+    "title": "Uber Ride",
+    "subtitle": "Yesterday, 6:45 PM",
+    "amount": "24.80",
+    "isExpense": true,
+    "category": "transport",
+    "icon": "Car",
+    "bgColor": "bg-blue-500"
+  },
+  {
+    "id": 5,
+    "title": "Netflix Subscription",
+    "subtitle": "Yesterday, 3:00 PM",
+    "amount": "15.99",
+    "isExpense": true,
+    "category": "entertainment",
+    "icon": "Tv",
+    "bgColor": "bg-red-500"
+  },
+  {
+    "id": 6,
+    "title": "Grocery Store",
+    "subtitle": "Yesterday, 1:15 PM",
+    "amount": "127.45",
+    "isExpense": true,
+    "category": "food",
+    "icon": "ShoppingCart",
+    "bgColor": "bg-green-600"
+  },
+  {
+    "id": 7,
+    "title": "Gas Station",
+    "subtitle": "Yesterday, 8:30 AM",
+    "amount": "45.20",
+    "isExpense": true,
+    "category": "transport",
+    "icon": "Fuel",
+    "bgColor": "bg-yellow-500"
+  },
+  {
+    "id": 8,
+    "title": "Freelance Payment",
+    "subtitle": "2 days ago, 4:20 PM",
+    "amount": "850.00",
+    "isExpense": false,
+    "category": "income",
+    "icon": "Briefcase",
+    "bgColor": "bg-indigo-500"
+  },
+  {
+    "id": 9,
+    "title": "Pharmacy",
+    "subtitle": "2 days ago, 2:10 PM",
+    "amount": "32.75",
+    "isExpense": true,
+    "category": "health",
+    "icon": "Heart",
+    "bgColor": "bg-pink-500"
+  },
+  {
+    "id": 10,
+    "title": "Electric Bill",
+    "subtitle": "2 days ago, 10:00 AM",
+    "amount": "89.50",
+    "isExpense": true,
+    "category": "bills",
+    "icon": "Zap",
+    "bgColor": "bg-yellow-600"
+  },
+  {
+    "id": 11,
+    "title": "McDonald's",
+    "subtitle": "3 days ago, 7:30 PM",
+    "amount": "18.95",
+    "isExpense": true,
+    "category": "food",
+    "icon": "Coffee",
+    "bgColor": "bg-red-600"
+  },
+  {
+    "id": 12,
+    "title": "Book Store",
+    "subtitle": "3 days ago, 3:45 PM",
+    "amount": "42.30",
+    "isExpense": true,
+    "category": "education",
+    "icon": "Book",
+    "bgColor": "bg-blue-600"
+  },
+  {
+    "id": 13,
+    "title": "Gym Membership",
+    "subtitle": "3 days ago, 9:15 AM",
+    "amount": "49.99",
+    "isExpense": true,
+    "category": "health",
+    "icon": "Dumbbell",
+    "bgColor": "bg-orange-600"
+  },
+  {
+    "id": 14,
+    "title": "Online Course",
+    "subtitle": "4 days ago, 6:20 PM",
+    "amount": "79.99",
+    "isExpense": true,
+    "category": "education",
+    "icon": "GraduationCap",
+    "bgColor": "bg-purple-600"
+  },
+  {
+    "id": 15,
+    "title": "Dividend Payment",
+    "subtitle": "4 days ago, 2:00 PM",
+    "amount": "125.50",
+    "isExpense": false,
+    "category": "income",
+    "icon": "TrendingUp",
+    "bgColor": "bg-emerald-500"
+  },
+  {
+    "id": 16,
+    "title": "Movie Theater",
+    "subtitle": "4 days ago, 8:45 PM",
+    "amount": "28.50",
+    "isExpense": true,
+    "category": "entertainment",
+    "icon": "Film",
+    "bgColor": "bg-purple-700"
+  },
+  {
+    "id": 17,
+    "title": "Water Bill",
+    "subtitle": "5 days ago, 11:30 AM",
+    "amount": "34.20",
+    "isExpense": true,
+    "category": "bills",
+    "icon": "Droplets",
+    "bgColor": "bg-blue-700"
+  },
+  {
+    "id": 18,
+    "title": "Clothing Store",
+    "subtitle": "5 days ago, 4:15 PM",
+    "amount": "156.80",
+    "isExpense": true,
+    "category": "shopping",
+    "icon": "Shirt",
+    "bgColor": "bg-pink-600"
+  },
+  {
+    "id": 19,
+    "title": "Pizza Delivery",
+    "subtitle": "5 days ago, 7:00 PM",
+    "amount": "23.75",
+    "isExpense": true,
+    "category": "food",
+    "icon": "Pizza",
+    "bgColor": "bg-red-700"
+  },
+  {
+    "id": 20,
+    "title": "Spotify Premium",
+    "subtitle": "6 days ago, 12:00 PM",
+    "amount": "9.99",
+    "isExpense": true,
+    "category": "entertainment",
+    "icon": "Music",
+    "bgColor": "bg-green-700"
+  },
+  {
+    "id": 21,
+    "title": "Taxi Ride",
+    "subtitle": "6 days ago, 5:30 PM",
+    "amount": "16.40",
+    "isExpense": true,
+    "category": "transport",
+    "icon": "Car",
+    "bgColor": "bg-yellow-700"
+  },
+  {
+    "id": 22,
+    "title": "Hardware Store",
+    "subtitle": "6 days ago, 10:20 AM",
+    "amount": "67.85",
+    "isExpense": true,
+    "category": "home",
+    "icon": "Wrench",
+    "bgColor": "bg-gray-600"
+  },
+  {
+    "id": 23,
+    "title": "Bonus Payment",
+    "subtitle": "1 week ago, 3:00 PM",
+    "amount": "500.00",
+    "isExpense": false,
+    "category": "income",
+    "icon": "Gift",
+    "bgColor": "bg-amber-500"
+  },
+  {
+    "id": 24,
+    "title": "Internet Bill",
+    "subtitle": "1 week ago, 9:00 AM",
+    "amount": "59.99",
+    "isExpense": true,
+    "category": "bills",
+    "icon": "Wifi",
+    "bgColor": "bg-indigo-600"
+  },
+  {
+    "id": 25,
+    "title": "Coffee Shop",
+    "subtitle": "1 week ago, 8:15 AM",
+    "amount": "7.25",
+    "isExpense": true,
+    "category": "food",
+    "icon": "Coffee",
+    "bgColor": "bg-amber-600"
+  },
+  {
+    "id": 26,
+    "title": "Pet Store",
+    "subtitle": "1 week ago, 2:45 PM",
+    "amount": "43.60",
+    "isExpense": true,
+    "category": "pets",
+    "icon": "Heart",
+    "bgColor": "bg-pink-700"
+  },
+  {
+    "id": 27,
+    "title": "Bank Transfer",
+    "subtitle": "1 week ago, 11:30 AM",
+    "amount": "200.00",
+    "isExpense": false,
+    "category": "income",
+    "icon": "CreditCard",
+    "bgColor": "bg-slate-600"
+  },
+  {
+    "id": 28,
+    "title": "Parking Fee",
+    "subtitle": "1 week ago, 6:00 PM",
+    "amount": "8.50",
+    "isExpense": true,
+    "category": "transport",
+    "icon": "Car",
+    "bgColor": "bg-stone-600"
+  },
+  {
+    "id": 29,
+    "title": "Dentist Appointment",
+    "subtitle": "1 week ago, 10:00 AM",
+    "amount": "150.00",
+    "isExpense": true,
+    "category": "health",
+    "icon": "Stethoscope",
+    "bgColor": "bg-teal-600"
+  },
+  {
+    "id": 30,
+    "title": "Electronics Store",
+    "subtitle": "1 week ago, 4:30 PM",
+    "amount": "299.99",
+    "isExpense": true,
+    "category": "shopping",
+    "icon": "Smartphone",
+    "bgColor": "bg-cyan-600"
+  },
+  {
+    "id": 31,
+    "title": "Restaurant Dinner",
+    "subtitle": "1 week ago, 8:00 PM",
+    "amount": "85.40",
+    "isExpense": true,
+    "category": "food",
+    "icon": "UtensilsCrossed",
+    "bgColor": "bg-rose-600"
+  },
+  {
+    "id": 32,
+    "title": "Car Insurance",
+    "subtitle": "2 weeks ago, 1:00 PM",
+    "amount": "125.00",
+    "isExpense": true,
+    "category": "insurance",
+    "icon": "Shield",
+    "bgColor": "bg-violet-600"
+  },
+  {
+    "id": 33,
+    "title": "Freelance Project",
+    "subtitle": "2 weeks ago, 5:15 PM",
+    "amount": "1200.00",
+    "isExpense": false,
+    "category": "income",
+    "icon": "Laptop",
+    "bgColor": "bg-emerald-600"
+  },
+  {
+    "id": 34,
+    "title": "Barber Shop",
+    "subtitle": "2 weeks ago, 11:45 AM",
+    "amount": "25.00",
+    "isExpense": true,
+    "category": "personal",
+    "icon": "Scissors",
+    "bgColor": "bg-orange-700"
+  },
+  {
+    "id": 35,
+    "title": "Laundry Service",
+    "subtitle": "2 weeks ago, 3:20 PM",
+    "amount": "18.75",
+    "isExpense": true,
+    "category": "home",
+    "icon": "Shirt",
+    "bgColor": "bg-blue-800"
+  },
+  {
+    "id": 36,
+    "title": "Investment Return",
+    "subtitle": "2 weeks ago, 9:30 AM",
+    "amount": "75.25",
+    "isExpense": false,
+    "category": "income",
+    "icon": "TrendingUp",
+    "bgColor": "bg-green-800"
+  },
+  {
+    "id": 37,
+    "title": "Bus Ticket",
+    "subtitle": "2 weeks ago, 7:45 AM",
+    "amount": "3.50",
+    "isExpense": true,
+    "category": "transport",
+    "icon": "Bus",
+    "bgColor": "bg-yellow-800"
+  },
+  {
+    "id": 38,
+    "title": "Office Supplies",
+    "subtitle": "2 weeks ago, 2:10 PM",
+    "amount": "34.90",
+    "isExpense": true,
+    "category": "work",
+    "icon": "Briefcase",
+    "bgColor": "bg-gray-700"
+  },
+  {
+    "id": 39,
+    "title": "Charity Donation",
+    "subtitle": "2 weeks ago, 6:30 PM",
+    "amount": "50.00",
+    "isExpense": true,
+    "category": "charity",
+    "icon": "Heart",
+    "bgColor": "bg-red-800"
+  },
+  {
+    "id": 40,
+    "title": "Phone Bill",
+    "subtitle": "3 weeks ago, 12:00 PM",
+    "amount": "45.99",
+    "isExpense": true,
+    "category": "bills",
+    "icon": "Phone",
+    "bgColor": "bg-purple-800"
+  },
+  {
+    "id": 41,
+    "title": "Cashback Reward",
+    "subtitle": "3 weeks ago, 4:00 PM",
+    "amount": "12.50",
+    "isExpense": false,
+    "category": "income",
+    "icon": "Gift",
+    "bgColor": "bg-amber-700"
+  },
+  {
+    "id": 42,
+    "title": "Garden Center",
+    "subtitle": "3 weeks ago, 10:30 AM",
+    "amount": "28.65",
+    "isExpense": true,
+    "category": "home",
+    "icon": "Flower",
+    "bgColor": "bg-green-900"
+  },
+  {
+    "id": 43,
+    "title": "Dry Cleaning",
+    "subtitle": "3 weeks ago, 1:45 PM",
+    "amount": "22.00",
+    "isExpense": true,
+    "category": "personal",
+    "icon": "Shirt",
+    "bgColor": "bg-blue-900"
+  },
+  {
+    "id": 44,
+    "title": "Concert Ticket",
+    "subtitle": "3 weeks ago, 7:20 PM",
+    "amount": "65.00",
+    "isExpense": true,
+    "category": "entertainment",
+    "icon": "Music",
+    "bgColor": "bg-pink-800"
+  },
+  {
+    "id": 45,
+    "title": "Rental Income",
+    "subtitle": "3 weeks ago, 8:00 AM",
+    "amount": "800.00",
+    "isExpense": false,
+    "category": "income",
+    "icon": "Home",
+    "bgColor": "bg-indigo-700"
+  },
+  {
+    "id": 46,
+    "title": "Vitamin Store",
+    "subtitle": "3 weeks ago, 11:15 AM",
+    "amount": "39.99",
+    "isExpense": true,
+    "category": "health",
+    "icon": "Pill",
+    "bgColor": "bg-teal-700"
+  },
+  {
+    "id": 47,
+    "title": "Train Ticket",
+    "subtitle": "3 weeks ago, 5:50 PM",
+    "amount": "42.75",
+    "isExpense": true,
+    "category": "transport",
+    "icon": "Train",
+    "bgColor": "bg-slate-700"
+  },
+  {
+    "id": 48,
+    "title": "Software License",
+    "subtitle": "1 month ago, 2:30 PM",
+    "amount": "99.99",
+    "isExpense": true,
+    "category": "work",
+    "icon": "Monitor",
+    "bgColor": "bg-cyan-700"
+  },
+  {
+    "id": 49,
+    "title": "Side Hustle Payment",
+    "subtitle": "1 month ago, 6:45 PM",
+    "amount": "350.00",
+    "isExpense": false,
+    "category": "income",
+    "icon": "DollarSign",
+    "bgColor": "bg-emerald-700"
+  },
+  {
+    "id": 50,
+    "title": "Home Insurance",
+    "subtitle": "1 month ago, 9:00 AM",
+    "amount": "185.00",
+    "isExpense": true,
+    "category": "insurance",
+    "icon": "Home",
+    "bgColor": "bg-violet-700"
+  }
+]
