@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
+import { View, Text, TouchableOpacity, SafeAreaView } from 'react-native';
 import { FlashList } from '@shopify/flash-list';
 import {
   ShoppingBag,
@@ -156,14 +156,15 @@ export default function RecentTransactions() {
   );
 
   return (
-    <View className="flex-1 py-10">
+    <SafeAreaView className="flex-1 bg-gray-50 pt-10">
+    <View className="flex-1">
       <View className="flex-row justify-between items-center mb-4 px-6">
         <Text className="text-gray-900 text-xl font-bold">
           Recent Transactions
         </Text>
-        <TouchableOpacity>
+        {/* <TouchableOpacity>
           <Text className="text-primary-500 text-sm font-medium">See all</Text>
-        </TouchableOpacity>
+        </TouchableOpacity> */}
       </View>
       <View className="flex-1 min-h-[400px]">
         <FlashList
@@ -176,5 +177,6 @@ export default function RecentTransactions() {
         />
       </View>
     </View>
+    </SafeAreaView>
   );
 }

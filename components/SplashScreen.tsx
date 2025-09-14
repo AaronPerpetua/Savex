@@ -1,6 +1,6 @@
 import React from "react";
 import { SafeAreaView, Text, Image,StyleSheet,View  } from "react-native";
-import { Riple } from "react-loading-indicators";
+ 
 import LottieView from "lottie-react-native";
 
 export default function SplashScreen() {
@@ -18,7 +18,7 @@ export default function SplashScreen() {
     <SafeAreaView className="flex-1 justify-center items-center bg-white">
       <View style={styles.container}>
       <LottieView
-        source={require("../assets/loading_animation.json")}
+        source={require("../assets/loadingCircle.json")}
         autoPlay
         loop
         style={{ width: 120, height: 120 }}

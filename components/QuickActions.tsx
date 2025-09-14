@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import { Plus, ArrowUpRight, ArrowDownLeft } from 'lucide-react-native';
 import Animated, {
@@ -8,6 +8,7 @@ import Animated, {
 } from 'react-native-reanimated';
 import { useRouter } from 'expo-router';
 import { supabase } from '../utils/supabase';
+import TransactionModal from './addModal';
 
 
 const AnimatedTouchableOpacity =
@@ -51,21 +52,30 @@ function ActionButton({ icon, label, bgColor, onPress }: ActionButtonProps) {
   );
 }
 
-const createTransaction = async ()=> {
+// const createTransaction = async ()=> {
 
-  const { error } = await supabase
-  .from('transactions')
-  .insert({ user_id: "22cfd727-2e19-4b27-b20f-3ebb71f35708", 
-    description: 'brought from sm MOA',
-  type: 'Expense',
-amount:'5000',
-name: 'PC' })
-console.log(error?.message)
+//   const { error } = await supabase
+//   .from('transactions')
+//   .insert({ user_id: "22cfd727-2e19-4b27-b20f-3ebb71f35708", 
+//     description: 'brought from sm MOA',
+//     type: 'Expense',
+//     amount:'6000',
+//     name: 'Table and chair' })
+    
+//     if(error){
+//       console.log(error.message)
+//     }else{
+//       alert("Trasaction Completed")
+//     }
+    
+// };
+
  
-};
 
 export default function QuickActions() {
   const router = useRouter();
+  const [showModal, setShowModal] = useState(false);
+
 
   return (
     <View>
@@ -76,22 +86,29 @@ export default function QuickActions() {
         <ActionButton
           icon={<Plus size={24} color="white" />}
           label="Add Transaction"
-          bgColor="bg-primary-500"
+          bgColor="bg-orange-500"
           onPress={() => console.log('Add Transaction')}
         />
         <ActionButton
           icon={<ArrowUpRight size={24} color="white" />}
           label="Send Money"
-          bgColor="bg-success-500"
-          onPress={createTransaction}
+          bgColor="bg-blue-500"
+          // onPress={createTransaction}
+           onPress={() => setShowModal(true)}
         />
         <ActionButton
           icon={<ArrowDownLeft size={24} color="white" />}
-          label="Request Money"
-          bgColor="bg-orange-500"
+          label="Save Money"
+          bgColor="bg-green-500"
           onPress={() => console.log('Request Money')}
         />
       </View>
+       <TransactionModal
+        visible={showModal}
+        onClose={() => setShowModal(false)} onSave={function (data: { item: string; amount: string; description: string; }): void {
+          throw new Error('Function not implemented.');
+        } }        
+      />
     </View>
   );
 }

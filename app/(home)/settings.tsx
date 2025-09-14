@@ -3,6 +3,7 @@ import { View, Text, SafeAreaView,Button } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useRouter,useFocusEffect  } from 'expo-router';
 import { supabase } from '../../utils/supabase';
+import SplashScreen from '@/components/SplashScreen';
 
 
 
@@ -17,8 +18,8 @@ export default function SettingsScreen() {
     await supabase.auth.signOut();
   };
 
-  if (loading){
-     return ; // or splash/loading screen
+  if (loading) {
+    return <SplashScreen />; // or splash/loading screen
   }
 
   return (

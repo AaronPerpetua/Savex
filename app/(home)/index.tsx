@@ -17,7 +17,9 @@ import { useRouter } from 'expo-router';
 export default function Index() {
  
    const router = useRouter();
-   const [email, setEmail] = useState('');
+   const [email, setEmail] = useState<string | null>(null);
+
+
     useEffect(() => {
     const getUser = async () => {
       const {
@@ -28,7 +30,7 @@ export default function Index() {
       if (error) {
           console.log(error.message, "this is from home page")
       } else if (user) {
-        setEmail(user.email);
+        setEmail(user.email!);
       
       }
     };
@@ -39,7 +41,7 @@ export default function Index() {
  
 
   return (
-    <SafeAreaView className="flex-1 bg-gray-50 py-10">
+    <SafeAreaView className="flex-1 bg-gray-50 pt-10">
       <StatusBar style="dark" />
       <ScrollView className="flex-1" showsVerticalScrollIndicator={false}>
         {/* Header */}

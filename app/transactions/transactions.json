@@ -47,7 +47,7 @@
     "isExpense": true,
     "category": "entertainment",
     "icon": "Tv",
-    "bgColor": "bg-red-500"
+    "bgColor": "bg-orange-500"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "isExpense": true,
     "category": "food",
     "icon": "ShoppingCart",
-    "bgColor": "bg-green-600"
+    "bgColor": "bg-green-500"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "isExpense": true,
     "category": "transport",
     "icon": "Fuel",
-    "bgColor": "bg-yellow-500"
+    "bgColor": "bg-blue-500"
   },
   {
     "id": 8,
@@ -97,7 +97,7 @@
     "isExpense": true,
     "category": "bills",
     "icon": "Zap",
-    "bgColor": "bg-yellow-600"
+    "bgColor": "bg-green-800"
   },
   {
     "id": 11,

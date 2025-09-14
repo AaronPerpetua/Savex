@@ -14,25 +14,24 @@ import { supabase } from '../utils/supabase';
 
 import '../global.css';
 
+
 export default function RootLayout() {
   
 
 
   const router = useRouter();
-   const [session, setSession] = useState(null);
-
-  
-
+   const [session, setSession] =  useState(null);
 
 
   useEffect(() => {
     // Load current session
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      
+    const getUser = async ()=>{
+    await supabase.auth.getSession().then(({ data: { session } }) => {
       setSession(session);
-    
     });
 
+    }
+     getUser();
     // Listen for login/logout
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
       (_event, session) => {
@@ -43,9 +42,6 @@ export default function RootLayout() {
           // console.log(session)
         } else {
           router.replace("/(home)");
-        
-
-
         }
       }
     );
@@ -53,6 +49,8 @@ export default function RootLayout() {
     return () => {
       subscription.unsubscribe();
     };
+
+   
   }, []);
 
   // if (loading) {
