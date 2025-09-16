@@ -43,6 +43,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "47a683ed-5b88-45e8-8a6b-e3196ef805d6"
+      }
+    },
+    "owner": "rfsguido"
   }
 }
